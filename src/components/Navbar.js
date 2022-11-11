@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div className="Navbar">
       <header className="Navbar-header">
-        <p className="text-3xl font-bold underline">Hello world</p>
+        <p className="text-3xl font-bold underline">Hello nav</p>
       </header>
     </div>
   );
