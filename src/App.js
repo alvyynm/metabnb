@@ -1,5 +1,8 @@
 import React from "react";
 
+import Home from "./pages/Home";
+import Places from "./pages/Places";
+
 function App() {
   return (
     <div className="App font-primary">
