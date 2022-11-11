@@ -20,6 +20,11 @@ import img6 from "../assets/images/Frame151_1.png";
 import img7 from "../assets/images/Frame151_2.png";
 import img8 from "../assets/images/Frame151_3.png";
 
+// Outro images
+import ftimg1 from "../assets/images/image9.png";
+import ftimg2 from "../assets/images/image8.png";
+import ftimg3 from "../assets/images/image7.png";
+
 function Home() {
   return (
     <div className="Home">
@@ -75,11 +80,22 @@ function Home() {
           </section>
         </div>
       </section>
-      <header className="Home-header">
-        <p className="text-3xl font-bold underline">
-          Hello world this is my home page
-        </p>
-      </header>
+      <section>
+        <div>
+          <h2>Metabnb NFTs</h2>
+          <p>
+            Discover our NFT gift cards collection. Loyal customers gets amazing
+            gift cards which are traded as NFTs. These NFTs gives our cutomer
+            access to loads of our exclusive services.
+          </p>
+          <button>Learn more</button>
+        </div>
+        <div>
+          <img src={ftimg1} className="max-w-[23.625rem]" alt="" />
+          <img src={ftimg2} className="max-w-[23.625rem]" alt="" />
+          <img src={ftimg3} className="max-w-[23.625rem]" alt="" />
+        </div>
+      </section>
       <Footer />
     </div>
   );
