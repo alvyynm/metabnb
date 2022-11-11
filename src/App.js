@@ -11,7 +11,7 @@ function App() {
         <Route
           path="/"
           element={
-            <div className="App font-primary">
+            <div className="App font-primary text-primary font-normal">
               <Home />
             </div>
           }
