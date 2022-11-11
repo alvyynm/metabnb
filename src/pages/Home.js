@@ -15,16 +15,22 @@ function Home() {
     <div className="Home">
       <Navbar />
       <Hero />
-      <section>
-        <ul>
+      <section className="bg-purple mb-[19px]">
+        <ul className="flex justify-between py-[10px] px-[139px]">
           <li>
-            <img src={mbtoken} alt="" />
+            <a href="#">
+              <img src={mbtoken} alt="mbtoken logo" />
+            </a>
           </li>
           <li>
-            <img src={metamask} alt="" />
+            <a href="#">
+              <img src={metamask} alt="metamask logo" />
+            </a>
           </li>
           <li>
-            <img src={opensea} alt="" />
+            <a href="#">
+              <img src={opensea} alt="opensea logo" />
+            </a>
           </li>
         </ul>
       </section>
