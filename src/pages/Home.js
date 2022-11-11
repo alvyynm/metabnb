@@ -10,6 +10,16 @@ import mbtoken from "../assets/logos/mbtoken.png";
 import metamask from "../assets/logos/metanmask.png";
 import opensea from "../assets/logos/opensea.png";
 
+// Card images
+import img1 from "../assets/images/Frame151_4.png";
+import img2 from "../assets/images/Frame151_5.png";
+import img3 from "../assets/images/Frame151_6.png";
+import img4 from "../assets/images/Frame151_7.png";
+import img5 from "../assets/images/Frame151.png";
+import img6 from "../assets/images/Frame151_1.png";
+import img7 from "../assets/images/Frame151_2.png";
+import img8 from "../assets/images/Frame151_3.png";
+
 function Home() {
   return (
     <div className="Home">
@@ -33,6 +43,25 @@ function Home() {
             </a>
           </li>
         </ul>
+      </section>
+      <section className="bg-white ">
+        <div className="mx-[100px] mb-[53px]">
+          <h2 className="text-5xl font-bold leading-[3.75rem] pt-[39px] pb-[43px] text-center">
+            Inspiration for your next adventure
+          </h2>
+          <section>
+            <div className="grid md:grid-cols-2 md:grid-rows-4 lg:grid-cols-4 lg:grid-rows-2 gap-6">
+              <Card imgSrc={img1} />
+              <Card imgSrc={img2} />
+              <Card imgSrc={img3} />
+              <Card imgSrc={img4} />
+              <Card imgSrc={img5} />
+              <Card imgSrc={img6} />
+              <Card imgSrc={img7} />
+              <Card imgSrc={img8} />
+            </div>
+          </section>
+        </div>
       </section>
       <header className="Home-header">
         <p className="text-3xl font-bold underline">
