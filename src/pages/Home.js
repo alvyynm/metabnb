@@ -26,31 +26,43 @@ function Home() {
       <Navbar />
       <Hero />
       <section className="bg-purple mb-[19px]">
-        <ul className="flex justify-between py-[10px] px-[139px]">
+        <ul className="flex justify-between py-[10px] px-3 lg:px-[139px]">
           <li>
             <a href="#">
-              <img src={mbtoken} alt="mbtoken logo" />
+              <img
+                src={mbtoken}
+                alt="mbtoken logo"
+                className="w-24 lg:w-full"
+              />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src={metamask} alt="metamask logo" />
+              <img
+                src={metamask}
+                alt="metamask logo"
+                className="w-24 lg:w-full"
+              />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src={opensea} alt="opensea logo" />
+              <img
+                src={opensea}
+                alt="opensea logo"
+                className="w-24 lg:w-full"
+              />
             </a>
           </li>
         </ul>
       </section>
       <section className="bg-white ">
-        <div className="mx-[100px] mb-[53px]">
+        <div className="lg:mx-[100px] mb-[53px]">
           <h2 className="text-5xl font-bold leading-[3.75rem] pt-[39px] pb-[43px] text-center">
             Inspiration for your next adventure
           </h2>
-          <section>
-            <div className="grid md:grid-cols-2 md:grid-rows-4 lg:grid-cols-4 lg:grid-rows-2 gap-6">
+          <section className="w-[90%] mx-auto lg:w-auto lg:mx-0">
+            <div className="grid md:grid-cols-2 md:grid-rows-4 lg:grid-cols-4 lg:grid-rows-2 gap-6 place-items-center">
               <Card imgSrc={img1} />
               <Card imgSrc={img2} />
               <Card imgSrc={img3} />
