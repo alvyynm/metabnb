@@ -10,9 +10,13 @@ import instagram from "../assets/social-icons/instagram.png";
 function Footer() {
   return (
     <footer className="bg-backgrounddark text-white">
-      <div>
+      <div className="grid md:grid-cols-2 md:grid-rows-4 lg:grid-cols-4 lg:grid-rows-1 pt-16">
         <div>
-          <img src={logo2} alt="black and white metabnb logo" />
+          <img
+            src={logo2}
+            alt="black and white metabnb logo"
+            className="mb-4 md:mb-12 lg:mb-24"
+          />
           <div>
             <ul>
               <li>
@@ -34,15 +38,17 @@ function Footer() {
           </div>
         </div>
         <div>
-          <h3>Community</h3>
+          <h3 className="text-lg leading-[1.375rem] font-bold mb-[23px]">
+            Community
+          </h3>
           <ul>
-            <li>
+            <li className="mb-4">
               <a href="#">NFT</a>
             </li>
-            <li>
+            <li className="mb-4">
               <a href="#">Tokens</a>
             </li>
-            <li>
+            <li className="mb-4">
               <a href="#">Landlords</a>
             </li>
             <li>
@@ -51,15 +57,17 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <h3>Places</h3>
+          <h3 className="text-lg leading-[1.375rem] font-bold mb-[23px]">
+            Places
+          </h3>
           <ul>
-            <li>
+            <li className="mb-4">
               <a href="#">Castle</a>
             </li>
-            <li>
+            <li className="mb-4">
               <a href="#">Farms</a>
             </li>
-            <li>
+            <li className="mb-4">
               <a href="#">Beach</a>
             </li>
             <li>
@@ -68,15 +76,17 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <h3>About us</h3>
+          <h3 className="text-lg leading-[1.375rem] font-bold mb-[23px]">
+            About us
+          </h3>
           <ul>
-            <li>
+            <li className="mb-4">
               <a href="#">Roadmap</a>
             </li>
-            <li>
+            <li className="mb-4">
               <a href="#">Creators</a>
             </li>
-            <li>
+            <li className="mb-4">
               <a href="#">Career</a>
             </li>
             <li>
