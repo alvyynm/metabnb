@@ -80,20 +80,40 @@ function Home() {
           </section>
         </div>
       </section>
-      <section>
-        <div>
-          <h2>Metabnb NFTs</h2>
-          <p>
-            Discover our NFT gift cards collection. Loyal customers gets amazing
-            gift cards which are traded as NFTs. These NFTs gives our cutomer
-            access to loads of our exclusive services.
-          </p>
-          <button>Learn more</button>
-        </div>
-        <div>
-          <img src={ftimg1} className="max-w-[23.625rem]" alt="" />
-          <img src={ftimg2} className="max-w-[23.625rem]" alt="" />
-          <img src={ftimg3} className="max-w-[23.625rem]" alt="" />
+      <section className="bg-purple">
+        <div className="w-[90%] mx-auto lg:mx-[100px] flex justify-between lg:gap-[122px]">
+          <div className="my-[100px] lg:w-[704px] flex justify-center flex-col">
+            <h2 className="font-bold text-5xl leading-[60px] text-white mb-[35px]">
+              Metabnb NFTs
+            </h2>
+            <p className="text-lg leading-[35px] text-white mb-10 lg:mb-[58px]">
+              Discover our NFT gift cards collection. Loyal customers gets
+              amazing gift cards which are traded as NFTs. These NFTs gives our
+              cutomer access to loads of our exclusive services.
+            </p>
+            <div>
+              <button className="btn bg-white text-purple">Learn more</button>
+            </div>
+          </div>
+          <div className="lg:w-[954px] my-[100px] relative">
+            <div className=" lg:h-[55vh]">
+              <img
+                src={ftimg1}
+                className="max-w-[17.2rem] absolute top-11 right-20 rotate-[24deg] rounded-[10px]"
+                alt=""
+              />
+              <img
+                src={ftimg2}
+                className="max-w-[17.2rem] absolute top-48 right-7  rounded-[10px] rotate-[-18.76deg] z-10"
+                alt=""
+              />
+              <img
+                src={ftimg3}
+                className="max-w-[17.2rem] absolute top-36 left-20 rounded-[10px] rotate-[-28.02deg]"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
       </section>
       <Footer />
