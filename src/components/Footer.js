@@ -96,7 +96,7 @@ function Footer() {
         </div>
       </div>
       <div className="mt-[35px] pb-[37px] lg:mx-[100px]">
-        <p>&copy; 2022 Metabnb</p>
+        <p className="text-md">&copy; 2022 Metabnb</p>
       </div>
     </footer>
   );
