@@ -18,7 +18,7 @@ function Footer() {
             className="mb-4 md:mb-12 lg:mb-24"
           />
           <div>
-            <ul>
+            <ul className="flex gap-8">
               <li>
                 <a href="#">
                   <img src={facebook} alt="facebook logo icon" />
