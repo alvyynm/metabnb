@@ -10,7 +10,7 @@ import instagram from "../assets/social-icons/instagram.png";
 function Footer() {
   return (
     <footer className="bg-backgrounddark text-white">
-      <div className="grid md:grid-cols-2 md:grid-rows-4 lg:grid-cols-4 lg:grid-rows-1 pt-16">
+      <div className="grid md:grid-cols-2 md:grid-rows-4 lg:grid-cols-4 lg:grid-rows-1 pt-[58px]">
         <div>
           <img
             src={logo2}
@@ -95,7 +95,7 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <div>
+      <div className="mt-[35px] pb-[37px]">
         <p>&copy; 2022 Metabnb</p>
       </div>
     </footer>
