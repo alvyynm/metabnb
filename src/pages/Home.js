@@ -91,11 +91,11 @@ function Home() {
               amazing gift cards which are traded as NFTs. These NFTs gives our
               cutomer access to loads of our exclusive services.
             </p>
-            <div>
+            <div className="mx-auto lg:mx-0">
               <button className="btn bg-white text-purple">Learn more</button>
             </div>
           </div>
-          <div className="lg:w-[954px] my-[100px] relative">
+          <div className="hidden lg:inline-block lg:w-[954px] my-[100px] relative">
             <div className=" lg:h-[55vh]">
               <img
                 src={ftimg1}
