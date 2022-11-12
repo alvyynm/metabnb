@@ -10,12 +10,12 @@ import instagram from "../assets/social-icons/instagram.png";
 function Footer() {
   return (
     <footer className="bg-backgrounddark text-white">
-      <div className="grid md:grid-cols-2 md:grid-rows-4 lg:grid-cols-4 lg:grid-rows-1 pt-[58px] lg:mx-[100px]">
-        <div>
+      <div className="grid grid-cols-2 grid-rows-3 lg:grid-cols-4 lg:grid-rows-1 pt-[58px] lg:mx-[100px] w-[90%] mx-auto lg:w-auto">
+        <div className="col-span-2 lg:col-span-1 self-center lg:self-auto">
           <img
             src={logo2}
             alt="black and white metabnb logo"
-            className="mb-4 md:mb-12 lg:mb-24"
+            className="mb-8 md:mb-12 lg:mb-24"
           />
           <div>
             <ul className="flex gap-8">
@@ -76,7 +76,7 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <h3 className="text-lg leading-[1.375rem] font-bold mb-[23px]">
+          <h3 className="text-lg leading-[1.375rem] font-bold mb-[23px] mt-5 lg:mt-0">
             About us
           </h3>
           <ul>
@@ -95,7 +95,7 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <div className="mt-[35px] pb-[37px] lg:mx-[100px]">
+      <div className="mt-[35px] pb-[37px] lg:mx-[100px] w-[90%] mx-auto lg:w-auto">
         <p className="text-md">&copy; 2022 Metabnb</p>
       </div>
     </footer>
