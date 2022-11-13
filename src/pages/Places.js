@@ -4,6 +4,24 @@ import Navbar from "../components/Navbar";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
 
+// Card images
+import img1 from "../assets/images/Frame151_4.png";
+import img2 from "../assets/images/Frame151_5.png";
+import img3 from "../assets/images/Frame151_6.png";
+import img4 from "../assets/images/Frame151_7.png";
+import img5 from "../assets/images/Frame151.png";
+import img6 from "../assets/images/Frame151_1.png";
+import img7 from "../assets/images/Frame151_2.png";
+import img8 from "../assets/images/Frame151_3.png";
+import img9 from "../assets/images/Frame151_8.png";
+import img10 from "../assets/images/Frame151_9.png";
+import img11 from "../assets/images/Frame151_10.png";
+import img12 from "../assets/images/Frame151_11.png";
+import img13 from "../assets/images/Frame151_12.png";
+import img14 from "../assets/images/Frame151_13.png";
+import img15 from "../assets/images/Frame151_14.png";
+import img16 from "../assets/images/Frame151_15.png";
+
 function Places() {
   return (
     <div className="Places">
@@ -57,6 +75,29 @@ function Places() {
           </ul>
         </div>
       </header>
+      <div className="lg:mx-[100px] mb-[53px]">
+        <section className="w-[90%] mx-auto lg:w-auto lg:mx-0">
+          <div className="grid md:grid-cols-2 md:grid-rows-4 lg:grid-cols-4 lg:grid-rows-2 gap-6 place-items-center">
+            <Card imgSrc={img5} />
+            <Card imgSrc={img6} />
+            <Card imgSrc={img7} />
+            <Card imgSrc={img8} />
+            <Card imgSrc={img1} />
+            <Card imgSrc={img2} />
+            <Card imgSrc={img3} />
+            <Card imgSrc={img4} />
+            <Card imgSrc={img9} />
+            <Card imgSrc={img10} />
+            <Card imgSrc={img11} />
+            <Card imgSrc={img12} />
+            <Card imgSrc={img13} />
+            <Card imgSrc={img14} />
+            <Card imgSrc={img15} />
+            <Card imgSrc={img16} />
+          </div>
+        </section>
+      </div>
+
       <Footer />
     </div>
   );
