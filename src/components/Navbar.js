@@ -8,7 +8,7 @@ function Navbar() {
 
   return (
     <div className="pt-[43px]">
-      <div className=" w-[90%] lg:w-auto mx-auto lg:mx-[100px] mb-[125px]">
+      <div className=" w-[90%] lg:w-auto mx-auto lg:mx-[100px]">
         <nav className="flex justify-between items-center">
           <div>
             <img src={logo} alt="metabnb logo" className="w-4/5" />
