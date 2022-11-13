@@ -9,8 +9,8 @@ function Navbar() {
   return (
     <div className="pt-[43px]">
       <div className=" w-[90%] lg:w-auto mx-auto lg:mx-[100px]">
-        <nav className="flex justify-between items-center">
-          <div>
+        <nav className="flex justify-between items-center gap-[10.1875rem] relative">
+          <div className="lg:basis-2/12">
             <img src={logo} alt="metabnb logo" className="w-48 md:w-full" />
           </div>
           <button
@@ -36,10 +36,12 @@ function Navbar() {
           </button>
           <div
             className={
-              isNavExpanded ? " lg:inline-block" : "hidden lg:inline-block"
+              isNavExpanded
+                ? "bg-gray-50 absolute top-9 right-0 w-full lg:static lg:inline-block lg:basis-8/12"
+                : "hidden lg:inline-block"
             }
           >
-            <ul className="flex lg:gap-12 text-xl text-primary">
+            <ul className="flex flex-col gap-4 pl-6 py-6 lg:py-0 lg:pl-0  lg:flex-row lg:gap-12 text-xl text-primary lg:items-center">
               <li className="[text-shadow:0_4px_2px_rgba(0_0_0/_0.25)]">
                 <Link to="/">Home</Link>
               </li>
@@ -52,9 +54,14 @@ function Navbar() {
               <li className="[text-shadow:0_4px_2px_rgba(0_0_0/_0.25)]">
                 <a href="#">Community</a>
               </li>
+              <li className="lg:ml-[6.11rem]">
+                <button className="text-white rounded-[10px]  bg-purple btn border-purple bg-gradient-to-r from-purple to-purple">
+                  Connect wallet
+                </button>
+              </li>
             </ul>
           </div>
-          <div
+          {/* <div
             className={
               isNavExpanded ? " lg:inline-block" : "hidden lg:inline-block"
             }
@@ -62,7 +69,7 @@ function Navbar() {
             <button className="text-white rounded-[10px]  bg-purple btn border-purple bg-gradient-to-r from-purple to-purple">
               Connect wallet
             </button>
-          </div>
+          </div> */}
         </nav>
       </div>
     </div>
