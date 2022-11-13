@@ -7,8 +7,8 @@ import imgr2 from "../assets/images/image5.jpg";
 
 function Hero() {
   return (
-    <section className="w-[90%] mx-auto lg:ml-[100px] lg:mr-[119px] mb-[67px] flex justify-between flex-col lg:flex-row gap-14 lg:gap-[99px] mt-[125px]">
-      <header className="lg:p-[29px] max-w-screen-md">
+    <section className="w-[90%] mx-auto lg:w-auto lg:ml-[100px] lg:mr-[119px] mb-[67px] flex justify-between flex-col lg:flex-row gap-14 lg:gap-[99px] mt-[125px]">
+      <header className="lg:py-[1.8125rem] lg:max-w-[40.375rem]">
         <h1 className="text-[56px] leading-[140%]">
           Rent a <span className="text-purple">Place</span> away from{" "}
           <span className="text-purple">Home</span> in the{" "}
@@ -32,23 +32,23 @@ function Hero() {
           </form>
         </div>
       </header>
-      <div className="lg:max-w-[476px]">
+      <div className="lg:max-w-[29.75rem]">
         <div className="grid grid-cols-2 grid-rows-1 gap-2 h-full">
           <div>
             <img
-              className="w-[234px] h-[176px] object-cover rounded-[15px] mb-2"
+              className="w-[14.625rem] h-[11rem] object-cover rounded-[15px] mb-2"
               src={imgl1}
               alt=""
             />
             <img
-              className="w-[234px] h-[176px] object-cover rounded-[15px]"
+              className="w-[14.625rem] h-[11rem] object-cover rounded-[15px]"
               src={imgl2}
               alt=""
             />
           </div>
           <div className="place-self-end">
             <img
-              className="w-[234px] h-[176px] object-cover rounded-[15px] mb-2"
+              className="w-[14.625rem] h-[11rem] object-cover rounded-[15px] mb-2"
               src={imgr1}
               alt=""
             />
