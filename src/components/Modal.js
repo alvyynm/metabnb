@@ -12,7 +12,7 @@ const Modal = ({ open, onClose }) => {
       onClick={onClose}
       className="h-[100%] w-[100%] bg-primary/[.54] absolute top-0 left-0 z-50"
     >
-      <div className="bg-white mx-4 md:min-w-[80%] md:mx-[10%] lg:min-w-[37.5rem] border border-1 border-border1 rounded-xl absolute top-[6%] left-2 lg:top-[12%] lg:left-[30%]">
+      <div className="bg-white mx-4 md:min-w-[80%] md:mx-[10%] lg:min-w-[37.5rem] border border-1 border-border1 rounded-xl absolute top-[6%] left-2 md:top-[10%] lg:top-[12%] lg:left-[30%]">
         <header className="flex justify-between py-6 px-8 border-b border-border3">
           <h2 className="text-2xl font-bold">Connect Wallet</h2>
           <button onClick={onClose}>
