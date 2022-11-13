@@ -101,17 +101,17 @@ function Home() {
             <div className=" lg:h-[55vh]">
               <img
                 src={ftimg1}
-                className="max-w-[17.2rem] absolute top-8 right-20 rotate-[16deg] rounded-[10px]"
+                className="max-w-[17.52rem] absolute top-8 right-20 rotate-[16deg] rounded-[10px]"
                 alt=""
               />
               <img
                 src={ftimg2}
-                className="max-w-[17.2rem] absolute top-48 right-8  rounded-[10px] rotate-[-28.76deg] z-10"
+                className="max-w-[17.52rem] absolute top-48 right-8  rounded-[10px] rotate-[-28.76deg] z-10"
                 alt=""
               />
               <img
                 src={ftimg3}
-                className="max-w-[17.2rem] absolute top-36 left-20 rounded-[10px] rotate-[-10.02deg]"
+                className="max-w-[17.52rem] absolute top-36 left-16 rounded-[10px] rotate-[-19.02deg]"
                 alt=""
               />
             </div>
