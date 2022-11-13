@@ -7,9 +7,9 @@ import walletlg from "../assets/logos/logo-wallet.png";
 
 const Modal = () => {
   return (
-    <div>
-      <header>
-        <h2>Connect Wallet</h2>
+    <div className="bg-sky-600 mx-4 md:mx-auto max-w-[37.5rem] border border-1 border-border1 rounded-xl">
+      <header className="flex justify-between py-6 px-8 border-b border-border3">
+        <h2 className="text-2xl font-bold">Connect Wallet</h2>
         <button>
           <svg
             width="24"
@@ -35,13 +35,16 @@ const Modal = () => {
           </svg>
         </button>
       </header>
-      <div>
-        <p>Choose your preferred wallet:</p>
-        <button>
-          <span>
+      <div className="py-8 px-8">
+        <p className="text-darkergray">Choose your preferred wallet:</p>
+        <button className="flex my-4 justify-between py-3 px-5 w-full border border-border3 rounded-xl items-center bg-backgroundlight">
+          <span className="flex items-center gap-4">
             <img src={metamasklg} alt="metamask logo" />
+
+            <p className="font-secondary text-lg font-semibold text-black">
+              Metamask
+            </p>
           </span>
-          Metamask
           <span>
             <svg
               width="20"
@@ -58,11 +61,14 @@ const Modal = () => {
           </span>
         </button>
 
-        <button>
-          <span>
+        <button className="flex justify-between py-3 px-5 w-full border border-border3 rounded-xl items-center">
+          <span className="flex items-center gap-4">
             <img src={walletlg} alt="metamask logo" />
+            <p className="font-secondary text-lg font-semibold text-black">
+              WalletConnect
+            </p>
           </span>
-          Metamask
+
           <span>
             <svg
               width="20"
