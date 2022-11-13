@@ -77,7 +77,7 @@ function Places() {
         </div>
       </header>
 
-      <Modal />
+      {/* <Modal /> */}
       <section className="lg:mx-[100px] mb-[92px] mt-[64px]">
         <div className="w-[90%] mx-auto lg:w-auto lg:mx-0">
           <div className="grid md:grid-cols-2 md:grid-rows-4 lg:grid-cols-4 lg:grid-rows-2 gap-6 place-items-center">
