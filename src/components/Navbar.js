@@ -11,7 +11,7 @@ function Navbar() {
       <div className=" w-[90%] lg:w-auto mx-auto lg:mx-[100px]">
         <nav className="flex justify-between items-center">
           <div>
-            <img src={logo} alt="metabnb logo" className="w-4/5" />
+            <img src={logo} alt="metabnb logo" className="w-48 md:w-full" />
           </div>
           <button
             className="lg:hidden"
