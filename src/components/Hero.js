@@ -7,7 +7,7 @@ import imgr2 from "../assets/images/image5.jpg";
 
 function Hero() {
   return (
-    <section className="w-[90%] mx-auto lg:w-auto lg:ml-[100px] lg:mr-[119px] mb-[67px] flex justify-between flex-col lg:flex-row gap-14 lg:gap-[99px] mt-[125px]">
+    <section className="w-[90%] mx-auto lg:w-auto lg:ml-[100px] lg:mr-[119px] mb-[67px] flex justify-between flex-col lg:flex-row gap-14 lg:gap-[99px] mt-12 lg:mt-[125px]">
       <header className="lg:py-[1.8125rem] lg:max-w-[40.375rem]">
         <h1 className="text-[56px] leading-[140%]">
           Rent a <span className="text-purple">Place</span> away from{" "}
