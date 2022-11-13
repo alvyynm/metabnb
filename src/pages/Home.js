@@ -31,7 +31,7 @@ function Home() {
       <Navbar />
       <Hero />
       <section className="bg-purple mb-[19px]">
-        <ul className="flex justify-between py-[10px] px-3 lg:px-[139px]">
+        <ul className="flex justify-around lg:justify-center items-center py-[10px] lg:gap-[14.625rem]">
           <li>
             <a href="#">
               <img
