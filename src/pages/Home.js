@@ -30,7 +30,7 @@ function Home() {
     <div className="Home">
       <Navbar />
       <Hero />
-      <section className="bg-purple mb-[19px]">
+      <section className="bg-purple mb-[1.1875rem]">
         <ul className="flex justify-around lg:justify-center items-center py-[10px] lg:gap-[14.625rem]">
           <li>
             <a href="#">
@@ -63,7 +63,7 @@ function Home() {
       </section>
       <section className="bg-white ">
         <div className="lg:mx-[100px] mb-[53px]">
-          <h2 className="text-5xl font-bold leading-[3.75rem] pt-[39px] pb-[43px] text-center">
+          <h2 className="text-4xl lg:text-5xl font-bold lg:leading-[3.75rem] pt-[2.4375rem] pb-[2.6875rem] text-center">
             Inspiration for your next adventure
           </h2>
           <section className="w-[90%] mx-auto lg:w-auto lg:mx-0">
@@ -81,9 +81,9 @@ function Home() {
         </div>
       </section>
       <section className="bg-purple">
-        <div className="w-[90%] mx-auto lg:mx-[100px] flex justify-between lg:gap-[122px]">
-          <div className="my-[100px] lg:w-[704px] flex justify-center flex-col">
-            <h2 className="font-bold text-5xl leading-[60px] text-white mb-[35px]">
+        <div className="w-[90%] mx-auto lg:w-auto lg:mx-[100px] flex justify-between lg:gap-[122px]">
+          <div className="my-12 lg:my-[100px] lg:w-[704px] flex justify-center flex-col">
+            <h2 className="font-bold text-4xl lg:text-5xl lg:leading-[60px] text-white mb-[2.1875rem]">
               Metabnb NFTs
             </h2>
             <p className="text-lg leading-[35px] text-white mb-10 lg:mb-[58px]">
@@ -91,25 +91,27 @@ function Home() {
               amazing gift cards which are traded as NFTs. These NFTs gives our
               cutomer access to loads of our exclusive services.
             </p>
-            <div className="mx-auto lg:mx-0">
-              <button className="btn bg-white text-purple">Learn more</button>
+            <div className="mx-auto lg:mx-0 w-full">
+              <button className="btn bg-white rounded-lg text-purple w-full lg:w-auto">
+                Learn more
+              </button>
             </div>
           </div>
           <div className="hidden lg:inline-block lg:w-[954px] my-[100px] relative">
             <div className=" lg:h-[55vh]">
               <img
                 src={ftimg1}
-                className="max-w-[17.2rem] absolute top-11 right-20 rotate-[24deg] rounded-[10px]"
+                className="max-w-[17.2rem] absolute top-8 right-20 rotate-[16deg] rounded-[10px]"
                 alt=""
               />
               <img
                 src={ftimg2}
-                className="max-w-[17.2rem] absolute top-48 right-7  rounded-[10px] rotate-[-18.76deg] z-10"
+                className="max-w-[17.2rem] absolute top-48 right-8  rounded-[10px] rotate-[-28.76deg] z-10"
                 alt=""
               />
               <img
                 src={ftimg3}
-                className="max-w-[17.2rem] absolute top-36 left-20 rounded-[10px] rotate-[-28.02deg]"
+                className="max-w-[17.2rem] absolute top-36 left-20 rounded-[10px] rotate-[-10.02deg]"
                 alt=""
               />
             </div>
