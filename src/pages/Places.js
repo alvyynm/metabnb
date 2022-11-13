@@ -54,7 +54,7 @@ function Places() {
               <a href="#">Farm</a>
             </li>
             <li className="col-span-2 md:col-span-1">
-              <button className="btn border-1 border-[#333] w-[161px] flex justify-between">
+              <button className="btn border-1 border-[#333] w-[161px] rounded-lg flex justify-between">
                 Location
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
