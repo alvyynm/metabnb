@@ -66,15 +66,6 @@ function Navbar() {
               </li>
             </ul>
           </div>
-          {/* <div
-            className={
-              isNavExpanded ? " lg:inline-block" : "hidden lg:inline-block"
-            }
-          >
-            <button className="text-white rounded-[10px]  bg-purple btn border-purple bg-gradient-to-r from-purple to-purple">
-              Connect wallet
-            </button>
-          </div> */}
         </nav>
       </div>
       <Modal open={openModal} onClose={() => setOpenModal(false)} />
