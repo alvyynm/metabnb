@@ -25,7 +25,7 @@ import img16 from "../assets/images/Frame151_15.png";
 
 function Places() {
   return (
-    <div className="Places">
+    <div className="Places relative">
       <Navbar />
       <header className="Places-header mt-12 lg:mt-[115px]">
         <div className="w-[90%] mx-auto lg:w-auto lg:mx-[100px]">

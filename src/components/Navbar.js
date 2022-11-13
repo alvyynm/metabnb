@@ -2,9 +2,11 @@ import { React, useState } from "react";
 import { Link } from "react-router-dom";
 
 import logo from "../assets/logos/logo.png";
+import Modal from "./Modal";
 
 function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
+  const [openModal, setOpenModal] = useState(false);
 
   return (
     <div className="pt-[43px]">
@@ -55,7 +57,10 @@ function Navbar() {
                 <a href="#">Community</a>
               </li>
               <li className="lg:ml-[6.11rem]">
-                <button className="text-white rounded-[10px]  bg-purple btn border-purple bg-gradient-to-r from-purple to-purple">
+                <button
+                  onClick={() => setOpenModal(!openModal)}
+                  className="text-white rounded-[10px]  bg-purple btn border-purple bg-gradient-to-r from-purple to-purple"
+                >
                   Connect wallet
                 </button>
               </li>
@@ -72,6 +77,7 @@ function Navbar() {
           </div> */}
         </nav>
       </div>
+      <Modal open={openModal} onClose={() => setOpenModal(false)} />
     </div>
   );
 }

@@ -27,7 +27,7 @@ import ftimg3 from "../assets/images/image7.png";
 
 function Home() {
   return (
-    <div className="Home">
+    <div className="Home relative">
       <Navbar />
       <Hero />
       <section className="bg-purple mb-[1.1875rem]">
