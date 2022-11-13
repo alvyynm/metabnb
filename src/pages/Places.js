@@ -28,7 +28,7 @@ function Places() {
       <Navbar />
       <header className="Places-header">
         <div className="w-[90%] mx-auto lg:w-auto lg:mx-[100px] bg-orange-400">
-          <ul className="grid grid-cols-[max-content_max-content_max-content_max-content] mx-auto md:grid-cols-6 lg:mx-0 grid-rows-3 gap-3 md:gap-6 lg:gap-12 lg:grid-cols-[max-content_max-content_max-content_max-content_max-content_max-content_max-content_max-content_max-content] lg:grid-rows-1 items-center">
+          <ul className="grid grid-cols-[max-content_max-content_max-content_max-content] mx-auto md:grid-cols-6 lg:mx-0 grid-rows-3 gap-3 md:gap-6 lg:gap-16 lg:grid-cols-[max-content_max-content_max-content_max-content_max-content_max-content_max-content_max-content_max-content] lg:grid-rows-1 items-center">
             <li>
               <a href="#">Restaurant</a>
             </li>
