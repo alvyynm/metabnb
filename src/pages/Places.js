@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
+import Modal from "../components/Modal";
 
 // Card images
 import img1 from "../assets/images/Frame151_4.png";
@@ -75,6 +76,8 @@ function Places() {
           </ul>
         </div>
       </header>
+
+      <Modal />
       <section className="lg:mx-[100px] mb-[92px] mt-[64px]">
         <div className="w-[90%] mx-auto lg:w-auto lg:mx-0">
           <div className="grid md:grid-cols-2 md:grid-rows-4 lg:grid-cols-4 lg:grid-rows-2 gap-6 place-items-center">
