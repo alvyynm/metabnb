@@ -3,7 +3,6 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
-import Modal from "../components/Modal";
 
 // Card images
 import img1 from "../assets/images/Frame151_4.png";
