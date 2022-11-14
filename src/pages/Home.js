@@ -79,7 +79,7 @@ function Home() {
         </div>
       </section>
       <section className="bg-purple">
-        <div className="w-[90%] mx-auto lg:w-auto lg:mx-[100px] flex flex-col lg:flex-row justify-between gap-2 lg:gap-[122px] pb-6 lg:pb-0">
+        <div className="w-[90%] mx-auto lg:w-auto lg:mx-[100px] flex flex-col lg:flex-row justify-between gap-2 lg:gap-[122px] pb-10 lg:pb-0">
           <div className="my-12 lg:my-[100px] lg:w-[704px] flex justify-center flex-col">
             <h2 className="font-bold text-4xl lg:text-5xl lg:leading-[60px] text-white mb-[2.1875rem]">
               Metabnb NFTs
