@@ -20,10 +20,10 @@ function Hero() {
           <form action="">
             <input
               type="search"
-              class="form-input rounded-lg lg:rounded-tr-none lg:rounded-br-none text-primary border border-border1 w-[100%] lg:w-[390px] mb-5 lg:m-0"
+              class="form-input rounded-lg rounded-tr-none rounded-br-none text-primary border border-border1 w-[70%] lg:w-[390px] mb-5 lg:m-0"
               placeholder="Search for location"
             />
-            <button className="border rounded-lg py-2 px-4  border-purple lg:rounded-tl-none lg:rounded-bl-none bg-gradient-to-r from-purple to-purple text-white lg:w-[230px] w-[100%] ">
+            <button className="border rounded-lg py-2 px-4  border-purple rounded-tl-none rounded-bl-none bg-gradient-to-r from-purple to-purple text-white lg:w-[230px] w-[30%] ">
               Search
             </button>
           </form>

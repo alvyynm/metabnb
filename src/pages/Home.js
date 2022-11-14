@@ -90,7 +90,7 @@ function Home() {
               cutomer access to loads of our exclusive services.
             </p>
             <div className="mx-auto lg:mx-0 w-full">
-              <button className="btn bg-white rounded-lg text-purple w-full lg:w-auto">
+              <button className="btn bg-white rounded-lg text-purple lg:w-auto">
                 Learn more
               </button>
             </div>
