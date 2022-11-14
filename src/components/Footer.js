@@ -10,8 +10,12 @@ import instagram from "../assets/social-icons/instagram.png";
 function Footer() {
   return (
     <footer className="bg-backgrounddark text-white">
-      <div className="grid grid-cols-2 grid-rows-3 lg:grid-cols-4 lg:grid-rows-1 lg:pt-[58px] lg:mx-[6.25rem] w-[90%] mx-auto lg:w-auto lg:gap-5">
-        <div className="col-span-2 lg:col-span-1 self-center lg:self-auto">
+      <div
+        className="grid grid-cols-2 grid-rows-3 
+      md:grid-cols-3 md:grid-rows-2
+      lg:grid-cols-4 lg:grid-rows-1 lg:pt-[58px] lg:mx-[6.25rem] w-[90%] mx-auto lg:w-auto lg:gap-5"
+      >
+        <div className="col-span-2 md:col-span-3 lg:col-span-1 self-center lg:self-auto">
           <img
             src={logo2}
             alt="black and white metabnb logo"
