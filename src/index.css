@@ -7,5 +7,5 @@
 @tailwind utilities;
 
 .btn {
-  @apply border py-2 px-4 shadow-md shadow-shadowcustom;
+  @apply border py-2 px-4 shadow-md;
 }

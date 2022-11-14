@@ -43,17 +43,17 @@ function Navbar() {
                 : "hidden lg:inline-block"
             }
           >
-            <ul className="flex flex-col gap-4 pl-6 py-6 lg:py-0 lg:pl-0  lg:flex-row lg:gap-12 text-xl text-primary lg:items-center">
-              <li className="[text-shadow:0_4px_2px_rgba(0_0_0/_0.25)]">
+            <ul className="flex flex-col gap-4 pl-6 py-6 lg:py-0 lg:pl-0  lg:flex-row lg:gap-12 text-xl text-primary lg:items-center bg-white">
+              <li>
                 <Link to="/">Home</Link>
               </li>
-              <li className="[text-shadow:0_4px_2px_rgba(0_0_0/_0.25)]">
+              <li>
                 <Link to="/places">Places to stay</Link>
               </li>
-              <li className="[text-shadow:0_4px_2px_rgba(0_0_0/_0.25)]">
+              <li>
                 <a href="#">NFTs</a>
               </li>
-              <li className="[text-shadow:0_4px_2px_rgba(0_0_0/_0.25)]">
+              <li>
                 <a href="#">Community</a>
               </li>
               <li className="lg:ml-[6.11rem]">
