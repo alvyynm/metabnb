@@ -21,9 +21,6 @@ import img7 from "../assets/images/Frame151_2.png";
 import img8 from "../assets/images/Frame151_3.png";
 
 // Outro images
-import ftimg1 from "../assets/images/image9.png";
-import ftimg2 from "../assets/images/image8.png";
-import ftimg3 from "../assets/images/image7.png";
 import outro from "../assets/images/outro.svg";
 
 function Home() {
