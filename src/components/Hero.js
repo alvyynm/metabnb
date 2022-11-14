@@ -1,9 +1,6 @@
 import React from "react";
 
-import imgr1 from "../assets/images/image3.jpg";
-import imgl2 from "../assets/images/image6.jpg";
-import imgl1 from "../assets/images/image4.jpg";
-import imgr2 from "../assets/images/image5.jpg";
+import hero from "../assets/images/hero.svg";
 
 function Hero() {
   return (
@@ -33,31 +30,12 @@ function Hero() {
         </div>
       </header>
       <div className="lg:max-w-[29.75rem]">
-        <div className="grid grid-cols-2 grid-rows-1 gap-2 h-full">
-          <div>
-            <img
-              className="w-[14.625rem] h-[11rem] object-cover rounded-[15px] mb-2"
-              src={imgl1}
-              alt=""
-            />
-            <img
-              className="w-[14.625rem] h-[11rem] object-cover rounded-[15px]"
-              src={imgl2}
-              alt=""
-            />
-          </div>
-          <div className="place-self-end">
-            <img
-              className="w-[14.625rem] h-[11rem] object-cover rounded-[15px] mb-2"
-              src={imgr1}
-              alt=""
-            />
-            <img
-              className="w-[234px] h-[176px] object-cover rounded-[15px]"
-              src={imgr2}
-              alt=""
-            />
-          </div>
+        <div className="h-full">
+          <img
+            className="w-full"
+            src={hero}
+            alt=" featured metabnb metaverse homes"
+          />
         </div>
       </div>
     </section>
