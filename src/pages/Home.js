@@ -24,6 +24,7 @@ import img8 from "../assets/images/Frame151_3.png";
 import ftimg1 from "../assets/images/image9.png";
 import ftimg2 from "../assets/images/image8.png";
 import ftimg3 from "../assets/images/image7.png";
+import outro from "../assets/images/outro.svg";
 
 function Home() {
   return (
@@ -81,7 +82,7 @@ function Home() {
         </div>
       </section>
       <section className="bg-purple">
-        <div className="w-[90%] mx-auto lg:w-auto lg:mx-[100px] flex justify-between lg:gap-[122px]">
+        <div className="w-[90%] mx-auto lg:w-auto lg:mx-[100px] flex flex-col lg:flex-row justify-between gap-2 lg:gap-[122px] pb-6 lg:pb-0">
           <div className="my-12 lg:my-[100px] lg:w-[704px] flex justify-center flex-col">
             <h2 className="font-bold text-4xl lg:text-5xl lg:leading-[60px] text-white mb-[2.1875rem]">
               Metabnb NFTs
@@ -97,8 +98,11 @@ function Home() {
               </button>
             </div>
           </div>
-          <div className="hidden lg:inline-block lg:w-[954px] my-[100px] relative">
-            <div className=" lg:h-[55vh]">
+          <div className="place-self-center lg:w-[954px] lg:my-[100px]">
+            <div>
+              <img src={outro} alt="" />
+            </div>
+            {/* <div className=" lg:h-[55vh]">
               <img
                 src={ftimg1}
                 className="max-w-[17.52rem] absolute top-8 right-20 rotate-[16deg] rounded-[10px]"
@@ -114,7 +118,7 @@ function Home() {
                 className="max-w-[17.52rem] absolute top-36 left-16 rounded-[10px] rotate-[-19.02deg]"
                 alt=""
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
