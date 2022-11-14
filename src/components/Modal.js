@@ -14,7 +14,7 @@ const Modal = ({ open, onClose }) => {
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className="bg-white mx-4 md:min-w-[80%] md:mx-[10%] lg:min-w-[37.5rem] border border-1 border-border1 rounded-xl absolute top-[6%] left-[3.5%] md:top-[10%] lg:top-[12%] lg:left-[20%]"
+        className="bg-white mx-4 md:min-w-[80%] md:mx-[10%] lg:min-w-[37.5rem] border border-1 border-border1 rounded-xl absolute top-[6%] left-[5.5%] md:top-[10%] lg:top-[12%] lg:left-[20%]"
       >
         <header className="flex justify-between py-6 px-8 border-b border-border3">
           <h2 className="text-2xl font-bold">Connect Wallet</h2>
